@@ -1,0 +1,199 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.uvod img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    color: #e56700;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e2b111;
+}
+
+.menu a:hover {
+    color: #e2b111;
+}
+
+.hlavicka a {
+    color: #e56700;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo {
+    color: #e56700;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.hlavicka {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    margin-left: auto;
+    padding: 8px 24px;
+}
+
+.omne {
+    text-align: center;
+    background-color: #e56700;
+    background-image: linear-gradient(to right, #e567007e, #ffcc0082), url(obrázky/pozadi.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+
+.omne p {
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+.omne img {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 4px;
+    padding-bottom: 16px;
+}
+
+footer a {
+    color: #b92e81;
+}
+
+.pozadikont {
+    text-align: center;
+    background-color: #ce5e02;
+    background-image: linear-gradient(to right, #e567007e, #ffcc0082), url(obrázky/pozadi.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kontakty {
+    display: flex;
+    margin-bottom: 24px;
+    max-width: 1100px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.kontakty li {
+    display: inline-block;
+} 
+
+.mapa {
+    margin-left: auto;
+}
+
+.cesty {
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.cesty p {
+    max-width: 450px;
+    height: 80px;
+}
+
+.cesty h3 {
+    color: #e56700;
+}
+
+.cesty img {
+    max-width: 450px;
+}
+
+.cesty a {
+    color: whitesmoke;
+}
+
+.cesty a:hover {
+    background-color: #e2b111;
+}
+
+.cesty li {
+    padding: 16px;
+    margin: 20px;
+    border: 2px dotted #d3d3d3;
+}
+
+.tlacitko {
+    padding: 10px;
+    margin: 10px;
+    background-color: #e56700;
+}
+
+
+
+
+
+
